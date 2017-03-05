@@ -113,7 +113,7 @@
                     <label class="form__caption" for="comment">Опишите свои эмоции</label><br>
                     <textarea name="comment" id="comment" rows="5" cols="30" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
                 </div>
-                <button class="form__btn btn" type="submit">Отправить форму</button>
+                <button class="form__btn btn btn--green" type="submit">Отправить форму</button>
                 <small class="form__prompt"><sub>*</sub> - обязательные поля</small>
             </form>
         </div>
@@ -136,5 +136,19 @@
             </div>
         </div>
     </footer>
+
+    <!-- Всплывающие окна -->
+    <div class="modal-content">
+        <h2 class="modal-content__title">Ваша заявка отправлена</h2>
+        <p>Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+        <button class="modal-content__btn btn btn--green" type="button">Закрыть окно</button>
+    </div>
+
+    <!-- Всплывающие окна -->
+    <div class="modal-content">
+        <h2 class="modal-content__title">Что-то пошло не так!</h2>
+        <p>Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button class="modal-content__btn btn btn--green" type="button">ОК</button>
+    </div>
 </body>
 </html>
