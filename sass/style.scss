@@ -1,3 +1,7 @@
+$body-bg: #F3F043;
+$body-color: green;
+
 body {
-    background-color: green;
+    background-color: $body-bg;
+    color: $body-color;
 }
